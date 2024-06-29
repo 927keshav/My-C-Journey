@@ -37,7 +37,8 @@ int main() {
 	return 0;
 	
 }
-/* Here the  Welcome to the cleaning services
+/* Here the Quick run of the Code for 2 rooms to be cleaned  
+Welcome to the cleaning services
 
 How many rooms would you like to be cleaned
 2
@@ -48,3 +49,4 @@ Cost:$60
 Tax:$0.06
 ============================================
 Total estimate   63.6
+*/
