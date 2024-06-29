@@ -1,3 +1,16 @@
+/*This is a pretty simple challenge that's based on one of the problems that we solved in this section.
+Well, this is a little bit different. In this case, Frank has two charges.
+One for small rooms and one for large rooms.
+So as you can see here he charges $25 for small rooms and $35 for large rooms.
+The sales tax rate is still 6% and estimates are still valid for 30 days.
+So what you need to do here is prompt the user both for how many small rooms they want cleaned and how many large rooms they want cleaned
+and then provide an estimate that looks something like this.
+Number of small rooms, for example, 3, number of large rooms 1.
+Price per small room $25, price per large room $35.
+Calculate the cost. Calculate the tax and then come up with a total estimate and tell them that the estimate is valid for 30 days.
+*/
+
+
 #include<iostream>
 
 using namespace std;
@@ -27,3 +40,12 @@ int main() {
 	return 0;
 	
 }
+
+/*Here's a sample run that you can see.So here, hello welcome to Frank's Carpet Cleaning Service. How many small rooms would you like clean?
+Let's say I want 3 small rooms cleaned and 1 large room clean.
+And you can see here the estimate is number of small rooms 3,number of large rooms 1- that's what I just typed in the price per small rooms is $25,
+the price per large room is $35 and the cost is $110.
+if you do the math, you can see that 3 x 25 is 75
+plus 35 is 110. 6% of that is $6.60.If you add it all together you get a $116.60.
+And then you display, "This estimate is valid for 30 days".
+*/
